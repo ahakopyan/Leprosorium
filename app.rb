@@ -7,5 +7,5 @@ get '/' do
 end
 
 get '/new' do
-	erb "Hello world!"
+	erb :new
 end
